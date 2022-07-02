@@ -1,0 +1,60 @@
+.header-label{
+  color: #fff;
+  text-align: center;
+  animation: colorShift 10s ease-in infinite;
+}
+
+svg .brain {
+  stroke-dasharray: 1155;
+  stroke-dashoffset: 2000;
+  stroke: #fff;
+  fill: #fff;
+  stroke-dashoffset: 1155;
+  animation: dash 10s ease-in infinite;
+  -webkit-animation: dash 10s infinite ease-in;
+}
+@-webkit-keyframes colorShift {
+  0% {
+    color: #fff;
+  }
+  5% {
+    color: #fff;
+  }
+  25% {
+    color: #1574A2;
+  }
+  50% {
+    color: #333;
+  }
+  55% {
+    color: #333;
+  }
+  75% {
+    color: #1574A2;
+  }
+
+}
+@-webkit-keyframes dash {
+  5% {
+    stroke: #1574A2;
+    fill: #fff;
+    stroke-dashoffset: 1155;
+  }
+  25% {
+    fill: #BCCFD7;
+  }
+  50% {
+    stroke: #333;
+    fill: #333;
+    stroke-dashoffset: 0;
+  }
+  55% {
+    stroke: #333;
+    fill: #333;
+    stroke-dashoffset: 0;
+  }
+    75% {
+    stroke: #1574A2;
+    fill: #BCCFD7;
+  }
+}
