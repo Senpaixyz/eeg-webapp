@@ -3,7 +3,9 @@
   text-align: center;
   animation: colorShift 10s ease-in infinite;
 }
-
+svg{
+    position:relative;
+}
 svg .brain {
   stroke-dasharray: 1155;
   stroke-dashoffset: 2000;
@@ -12,6 +14,7 @@ svg .brain {
   stroke-dashoffset: 1155;
   animation: dash 10s ease-in infinite;
   -webkit-animation: dash 10s infinite ease-in;
+
 }
 @-webkit-keyframes colorShift {
   0% {
