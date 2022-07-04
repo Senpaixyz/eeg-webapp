@@ -13,8 +13,8 @@ p {
 
 .header {
   position:relative;
-  text-align:center;
-  background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+
+  background: #c2d7f2;/*linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%)*/;
   color:white;
 }
 .logo {
@@ -26,10 +26,8 @@ p {
 }
 
 .inner-header {
-  height:65vh;
   width:100%;
-  margin: 0;
-  padding: 0;
+  padding-bottom: 90px;
 }
 
 .flex { /*Flexbox for containers*/

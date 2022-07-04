@@ -1,0 +1,65 @@
+{% extends 'layouts/main.html' %}
+{% block title %}Landing Page{% endblock %}
+
+{% block content %}
+<div class="container mb-5">
+    <div class="col-12">
+       <h2 class="card-title text-primary mb-3">PLEASE SELECT</h2>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+
+      <div class="col">
+        <div class="card h-100">
+          <img src="{{ url_for('static', filename='img/reading2.jpg') }}" class="card-img-top" alt="Skyscrapers"/>
+          <div class="card-body ">
+            <h2 class="card-title text-success">Reading</h2>
+            <p class="card-text text-dark">
+              This is a wider card with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <hr>
+            <button class="btn btn-lg btn-success rounded">
+              <i class="fas fa-file-csv  fa-lg me-2"></i>
+              UPLOAD FILE
+            </button>
+          </div>
+
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{{ url_for('static', filename='img/coding.jpg') }}" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+          <div class="card-body">
+            <h2 class="card-title text-success">Machine Learning</h2>
+            <p class="card-texttext-dark">This card has supporting text below as a natural lead-in to additional content.</p>
+            <hr>
+            <button class="btn btn-lg btn-success rounded">
+              <i class="fas fa-file-csv  fa-lg me-2"></i>
+              UPLOAD FILE
+            </button>
+
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="{{ url_for('static', filename='img/exercise.jpg') }}" class="card-img-top" alt="Palm Springs Road"/>
+          <div class="card-body">
+            <h2 class="card-title text-success">Exercise</h2>
+            <p class="card-text text-dark">
+              This is a wider card with supporting text below as a natural lead-in to
+              additional content.
+            </p>
+            <hr>
+            <button class="btn btn-lg btn-success rounded">
+              <i class="fas fa-file-csv  fa-lg me-2"></i>
+              UPLOAD FILE
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+</div>
+
+{% endblock %}

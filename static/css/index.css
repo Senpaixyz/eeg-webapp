@@ -1,0 +1,25 @@
+.navbar { box-shadow: none !important; }
+.text-primary{
+    color: #466eb6 !important;
+}
+.bg-primary{
+    background: #466eb6 !important;
+}
+.text-secondary{
+    color: #87a7d8 !important;
+}
+.bg-secondary{
+    background: #87a7d8 !important;
+}
+.text-dark{
+    color: #13375b !important;
+}
+.bg-dark{
+    background: #13375b !important;
+}
+.text-gray{
+    color: #576c89 !important;
+}
+.bg-gray{
+    background: #576c89 !important;
+}

@@ -1,7 +1,7 @@
 .header-label{
   color: #fff;
-  text-align: center;
-  animation: colorShift 10s ease-in infinite;
+  font-size: 50px;
+  /*animation: colorShift 10s ease-in infinite;*/
 }
 svg{
     position:relative;
